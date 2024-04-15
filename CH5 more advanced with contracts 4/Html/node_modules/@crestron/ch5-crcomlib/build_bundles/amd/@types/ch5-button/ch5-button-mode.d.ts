@@ -1,0 +1,38 @@
+import { ICh5ButtonModeAttributes, TCh5ButtonCheckboxPosition, TCh5ButtonHorizontalAlignLabel, TCh5ButtonIconPosition, TCh5ButtonIconUrlFillType, TCh5ButtonType, TCh5ButtonVerticalAlignLabel } from "./interfaces";
+import { Ch5Button } from "./ch5-button";
+import { Ch5Log } from "../ch5-common/ch5-log";
+export declare class Ch5ButtonMode extends Ch5Log implements ICh5ButtonModeAttributes {
+    parentButton?: Ch5Button | undefined;
+    static readonly ELEMENT_NAME: string;
+    private _parentCh5Button;
+    set labelInnerHTML(value: string);
+    get labelInnerHTML(): string;
+    set iconClass(value: string);
+    get iconClass(): string;
+    set hAlignLabel(value: TCh5ButtonHorizontalAlignLabel | null);
+    get hAlignLabel(): TCh5ButtonHorizontalAlignLabel | null;
+    set vAlignLabel(value: TCh5ButtonVerticalAlignLabel | null);
+    get vAlignLabel(): TCh5ButtonVerticalAlignLabel | null;
+    set checkboxPosition(value: TCh5ButtonCheckboxPosition | null);
+    get checkboxPosition(): TCh5ButtonCheckboxPosition | null;
+    set iconPosition(value: TCh5ButtonIconPosition | null);
+    get iconPosition(): TCh5ButtonIconPosition | null;
+    set iconUrl(value: string);
+    get iconUrl(): string;
+    set type(value: TCh5ButtonType | null);
+    get type(): TCh5ButtonType | null;
+    set customClass(value: string);
+    get customClass(): string;
+    set customStyle(value: string);
+    get customStyle(): string;
+    set iconUrlFillType(value: TCh5ButtonIconUrlFillType | null);
+    get iconUrlFillType(): TCh5ButtonIconUrlFillType | null;
+    constructor(parentButton?: Ch5Button | undefined);
+    connectedCallback(): void;
+    disconnectedCallback(): void;
+    static get observedAttributes(): string[];
+    attributeChangedCallback(attr: string, oldValue: string, newValue: string): void;
+    private validateAndSetAttributeWithCustomType;
+    private validateAndSetAttributeWithStringType;
+    getParentButton(): Ch5Button;
+}

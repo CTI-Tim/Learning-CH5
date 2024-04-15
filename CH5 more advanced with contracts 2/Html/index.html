@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- This is the top header bar that has the time in it -->
+  <div class="header">
+    <div class="clock" id="time"></div>
+    <div class="roomName" data-ch5-textcontent="Room.RoomNameFb">Label</div>
+    <div class="temp" id="temperature"></div>
+    <script src="time.js"></script>
+    <script src="weather.js"></script>
+  </div>
+<!-- The main Body of the touchpanel-->
+  <div class="content">
+    <h1 data-ch5-textcontent="Room.PowerStateFb">Room Name</h1>
+    <div class="btn-group">
+      <ch5-button label="Power On" sendEventOnClick="Room.PowerOn" receiveStateSelected="Room.PowerOnFb">
+      </ch5-button>
+      <ch5-button label="Power Off" sendEventOnClick="Room.PowerOff" receiveStateSelected="Room.PowerOffFb">
+      </ch5-button>
+    </div>
+  </div>
+<!-- The Footer where our interlock lives-->
+  <div class="footer">
+    <ch5-list id="Room.Button.Button" indexId="idx2" size="6" orientation="horizontal">
+      <template>
+        <div class="horizontal-list-item">
+          <!-- To get a dynamic label on the CH5-Button you need to use the receiveStateLabel as shown below-->
+          <ch5-button receiveStateLabel="Room.Button[{{idx2}}].Label"  sendEventOnClick="Room.Button[{{idx2}}].Push" receiveStateSelected="Room.Button[{{idx2}}].Feedback">
+          </ch5-button>
+        </div> 
+      </template>
+    </ch5-list>
+  </div>
+  
+  <!-- I prefer to directly point at the crcomlib directly as this is all we need. You can put all your javascript references down here if you want them grouped -->
+  <script src="./node_modules/@crestron/ch5-crcomlib/build_bundles/umd/cr-com-lib.js"></script>
+</body>
+</html>

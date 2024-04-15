@@ -1,0 +1,34 @@
+import { TCh5TabButtonAttributesOrientation } from '../interfaces/t-ch5-tab-button';
+import { TCh5TabButtonButtonType, TCh5TabButtonButtonHAlignLabel, TCh5TabButtonButtonVAlignLabel, TCh5TabButtonButtonIconPosition, TCh5TabButtonButtonShape, TCh5TabButtonButtonIconUrlFillType } from '../../ch5-tab-button/interfaces/t-ch5-tab-button';
+import { ICh5TabButtonCommonAttributes } from '../../ch5-common/interfaces/i-ch5-tab-button-attributes';
+export interface ICh5TabButtonAttributes extends ICh5TabButtonCommonAttributes {
+    orientation: TCh5TabButtonAttributesOrientation;
+    numberOfItems: number;
+    indexId: string;
+    buttonType: TCh5TabButtonButtonType;
+    buttonLabelInnerHtml: string;
+    buttonHAlignLabel: TCh5TabButtonButtonHAlignLabel;
+    buttonVAlignLabel: TCh5TabButtonButtonVAlignLabel;
+    buttonIconPosition: TCh5TabButtonButtonIconPosition;
+    buttonShape: TCh5TabButtonButtonShape;
+    buttonSelected: boolean;
+    buttonPressed: boolean;
+    buttonIconClass: string;
+    buttonIconUrl: string;
+    buttonReceiveStateSelected: string;
+    buttonReceiveStateLabel: string;
+    buttonReceiveStateScriptLabelHtml: string;
+    buttonReceiveStateIconClass: string;
+    buttonReceiveStateIconUrl: string;
+    buttonSendEventOnClick: string;
+    buttonReceiveStateShow: string;
+    buttonReceiveStateEnable: string;
+    contractName: string;
+    useContractForEnable: boolean;
+    useContractForShow: boolean;
+    useContractForCustomStyle: boolean;
+    useContractForCustomClass: boolean;
+    buttonIconUrlFillType: TCh5TabButtonButtonIconUrlFillType | null;
+    receiveStateSelectedButton: string;
+    useContractForEachButtonSelection: boolean;
+}

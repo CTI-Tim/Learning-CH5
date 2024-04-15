@@ -1,0 +1,36 @@
+import { Ch5Common } from "../ch5-common/ch5-common";
+import { Ch5TriggerView } from "./ch5-triggerview";
+import { TCh5ShowType } from "../ch5-common/interfaces";
+import { ICh5TriggerViewChildAttributes } from "./interfaces/i-ch5-triggerview-child-attributes";
+export declare class Ch5TriggerViewChild extends Ch5Common implements ICh5TriggerViewChildAttributes {
+    get selected(): boolean;
+    set selected(value: boolean);
+    get sendEventOnShow(): string;
+    set sendEventOnShow(value: string);
+    get receiveStateShow(): string;
+    set receiveStateShow(value: string);
+    set sigNameReceiveShow(value: string);
+    constructor();
+    static get observedAttributes(): string[];
+    static readonly ELEMENT_NAME = "ch5-triggerview-child";
+    static SHOW_TYPES: TCh5ShowType[];
+    primaryCssClass: string;
+    protected _noshowType: TCh5ShowType;
+    private _sendEventOnShowSigName;
+    private _receiveStateShowSigName;
+    private _subReceiveSignalShowId;
+    static registerSignalAttributeTypes(): void;
+    connectedCallback(): void;
+    disconnectedCallback(): void;
+    attributeChangedCallback(attr: string, oldValue: string, newValue: string): void;
+    unsubscribeFromSignals(): void;
+    getCssClassDisabled(): string;
+    getTriggerViewParent(): Ch5TriggerView | null;
+    protected initAttributes(): void;
+    protected updateCssClasses(): void;
+    protected attachEventListeners(): void;
+    protected removeEvents(): void;
+    private _generateListOfAllPossibleComponentCssClasses;
+    private _sendSignalValueOnShow;
+    private _upgradeProperty;
+}

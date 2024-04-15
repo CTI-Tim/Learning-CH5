@@ -1,0 +1,35 @@
+import { TCh5SliderHandleShape, TCh5SliderOrientation, TCh5SliderSize, TCh5SliderHandleSize, TCh5SliderStretch, TCh5SliderToolTipShowType, TCh5SliderToolTipDisplayType } from './t-ch5-slider';
+import { TCh5CommonInputFeedbackModes } from "../../ch5-common-input/interfaces/t-ch5-common-input";
+import { ICh5CommonAttributes } from "../../ch5-common/interfaces";
+export interface ICh5SliderAttributes extends ICh5CommonAttributes {
+    handleShape: TCh5SliderHandleShape;
+    value: number;
+    valueHigh: number;
+    max: number;
+    min: number;
+    orientation: TCh5SliderOrientation;
+    size: TCh5SliderSize;
+    handleSize: TCh5SliderHandleSize;
+    step: number;
+    stretch: TCh5SliderStretch;
+    ticks: string;
+    toolTipShowType: TCh5SliderToolTipShowType;
+    toolTipDisplayType: TCh5SliderToolTipDisplayType;
+    signalValueSyncTimeout: string | number;
+    feedbackMode: TCh5CommonInputFeedbackModes;
+    onclean: {};
+    ondirty: {};
+    range: boolean;
+    showTickValues: boolean;
+    noHandle: boolean;
+    tapSettable: boolean;
+    receiveStateValue: string;
+    receiveStateValueHigh: string;
+    sendEventOnChange: string;
+    sendEventOnChangeHigh: string;
+    onOffOnly: boolean;
+    receiveStateShowOnOffOnly: string;
+    sendEventOnUpper: string;
+    sendEventOnLower: string;
+    sendEventOnHandleClick: string;
+}

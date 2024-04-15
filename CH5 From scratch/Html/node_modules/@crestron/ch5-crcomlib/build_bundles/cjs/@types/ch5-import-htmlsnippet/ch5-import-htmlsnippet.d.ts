@@ -1,0 +1,34 @@
+import { Ch5Common } from "../ch5-common/ch5-common";
+import { Ch5SignalElementAttributeRegistryEntries } from '../ch5-common/ch5-signal-attribute-registry';
+import { ICh5ImportHtmlSnippetAttributes } from './interfaces/i-ch5-import-htmlsnippet-attributes';
+export declare class Ch5ImportHtmlSnippet extends Ch5Common implements ICh5ImportHtmlSnippetAttributes {
+    static ELEMENT_NAME: string;
+    static readonly SIGNAL_ATTRIBUTE_TYPES: Ch5SignalElementAttributeRegistryEntries;
+    private _elContainer;
+    private _url;
+    private _sigNameReceiveState;
+    private _subReceiveState;
+    private _sigNameSendOnError;
+    private errorEvent;
+    private sigNameSendOnLoad;
+    private _sendEventOnShowSigName;
+    constructor();
+    static registerSignalAttributeTypes(): void;
+    get url(): string;
+    set url(value: string);
+    get sendEventOnShow(): string;
+    set sendEventOnShow(value: string);
+    static get observedAttributes(): string[];
+    attributeChangedCallback(attr: string, oldValue: string, newValue: any): void;
+    unsubscribeFromSignals(): void;
+    connectedCallback(): void;
+    disconnectedCallback(): void;
+    private sendValueOnLoadSignal;
+    private onLoadAction;
+    private loadHTMLContent;
+    private asyncLoadContent;
+    private _sendSignalValueOnShow;
+    private _onError;
+    private _sendValueForErrorSignal;
+    protected initAttributes(): void;
+}

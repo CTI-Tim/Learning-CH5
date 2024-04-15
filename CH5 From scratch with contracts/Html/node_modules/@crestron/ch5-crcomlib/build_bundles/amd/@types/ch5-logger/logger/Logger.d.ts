@@ -1,0 +1,33 @@
+import { AbstractAppender } from "../appender/AbstractAppender";
+import { TLogMessageType } from "../types/index";
+import { LogMessage } from "../helpers/index";
+import { LogLevelEnum } from "../enums/index";
+import { LogMessagesFilter } from "../helpers/LogMessagesFilter";
+import { BehaviorSubject } from 'rxjs';
+export declare class Logger {
+    private static _instance;
+    private _subscribeDockerStatus;
+    private _appender;
+    private _logFilter;
+    private _messagesQueue;
+    private originalConsole;
+    static getInstance(appender: AbstractAppender, logFilter?: LogMessagesFilter): Logger;
+    private disconnect;
+    private constructor();
+    get subscribeDockerStatus(): BehaviorSubject<string>;
+    set subscribeDockerStatus(value: BehaviorSubject<string>);
+    set logFilter(logFilter: LogMessagesFilter);
+    get logFilter(): LogMessagesFilter;
+    log(...message: TLogMessageType): void;
+    info(...message: TLogMessageType): void;
+    warn(message: string): void;
+    error(message: string, line?: number): void;
+    windowErrorListener(error: ErrorEvent | CustomEvent): void;
+    restoreConsole(): void;
+    addWindowErrorListener(): void;
+    set appender(appender: AbstractAppender);
+    get appender(): AbstractAppender;
+    protected formatMessage(level: LogLevelEnum, message: string): LogMessage;
+    private checkAndAppendMessages;
+    private queueMessage;
+}

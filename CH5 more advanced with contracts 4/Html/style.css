@@ -1,0 +1,128 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+ 
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: white;
+  color: black;
+}
+
+.header{
+  background-color: rgba(0, 0, 0, 0.6);
+  color:white;
+  position: fixed;
+  margin: 0;
+  top: 0;
+  width: 100%;
+  height: 7vh; /* vh = viewport height. 7vh = occupy 7% of the total height */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+  font-family: arial;
+  font-size: 2.5rem;
+}
+
+.footer{
+  position: fixed;
+  margin: 0;
+  bottom: 0;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* NOTE: we should use rem for sizes because it is proportional to the document or what is displaying it. 1 rem = 1 times the root size relative measurements are better  */
+
+h1 {
+  font-family: Arial;
+  font-size: 4rem;
+  margin: 1rem;
+  text-align: center;
+}
+ 
+.btn-group {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Top header sections settings */
+.clock {
+  float: left;
+  width: 15%;
+  text-align: center;
+  vertical-align: middle;
+}
+.roomName {
+  position:absolute;
+  float: center;
+  width: 65%;
+  text-align: center;
+  vertical-align: middle;
+}
+.temp{
+  float: right;
+  width: 15%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* This is where we set the styles for the crestron components.  do not be intimidated by "ch5-button"  it's just a html button with  crestron hooks for communication */
+
+.ch5-button .cb-btn {
+  background: linear-gradient(#1d048a, #2244ee);
+  border: solid 2px #002288;
+  color: #fafafa;
+  border-radius: 0.7rem;
+  padding: 2rem;        /* This is where you set the size of the buttons space around the text https://www.w3schools.com/css/css3_buttons.asp */
+  margin: 0.5rem;
+  font-size: 2rem;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+ 
+.ch5-button--selected .cb-btn {
+  background: linear-gradient(180deg, #00cc33, #48ec9a);
+  border: solid 2px #111111;
+  color: #111111;
+  outline: none;
+}
+.horizontal-list-item {
+  align-items: center;
+}
+
+/* This is where we define the CSS for the segmented gauge. if you want control over the look  you need to do all of this yourself   */
+.ch5-segmented-gauge-segment {
+  height: 25px;
+  width: 25px;
+  margin: 3px;
+  background: #00000038;  /* lets not set a color but instead black with transparency, that way the background shows through  tinted and looks cooler. */
+}
+.ch5-segmented-gauge--orientation-horizontal {
+  display: flex;
+  flex-direction:row;
+}
+.ch5-segmented-gauge--orientation-vertical {
+  display: flex;
+  flex-direction:column-reverse;  /* CH5 generates these top down, we need to fix that using a flex box */
+}
+.ch5-segmented-gauge--segment-state-graphic-green.active {
+  background: #059600;
+}
+.ch5-segmented-gauge--segment-state-graphic-yellow.active {
+  background: #c4c003;
+}
+.ch5-segmented-gauge--segment-state-graphic-red.active {
+  background: #c41903;
+}
+

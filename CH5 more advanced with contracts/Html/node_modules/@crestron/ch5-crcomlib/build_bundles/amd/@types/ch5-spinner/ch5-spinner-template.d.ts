@@ -1,0 +1,58 @@
+import { Ch5Spinner } from "./ch5-spinner";
+export declare class Ch5SpinnerTemplate {
+    static ERROR: {
+        structure: string;
+    };
+    _templateDefined: boolean;
+    private _element;
+    private _wrapperElement;
+    private _scrollableArea;
+    private _highlightElement;
+    private _overlayElement;
+    private _templateElement;
+    private _childrenObject;
+    private _initialchildrenObject;
+    private _appendedItemIndex;
+    private _prependedItemIndex;
+    _clonedItems: {
+        prepended: HTMLElement[];
+        appended: HTMLElement[];
+        [key: string]: HTMLElement[];
+    };
+    constructor(element: Ch5Spinner);
+    destruct(): void;
+    set element(element: Ch5Spinner);
+    get element(): Ch5Spinner;
+    set wrapperElement(element: HTMLElement);
+    get wrapperElement(): HTMLElement;
+    set scrollableArea(area: HTMLElement);
+    get scrollableArea(): HTMLElement;
+    set highlightElement(element: HTMLElement);
+    get highlightElement(): HTMLElement;
+    set templateElement(template: HTMLTemplateElement);
+    get templateElement(): HTMLTemplateElement;
+    set childrenObject(childrenObject: [HTMLElement] | null);
+    get childrenObject(): [HTMLElement] | null;
+    set initialchildrenObject(childrenObject: [HTMLElement] | null);
+    get initialchildrenObject(): [HTMLElement] | null;
+    set overlayElement(element: HTMLElement);
+    get overlayElement(): HTMLElement;
+    set appendedItemIndex(index: number);
+    get appendedItemIndex(): number;
+    set prependedItemIndex(index: number);
+    get prependedItemIndex(): number;
+    addChild(child: HTMLElement): HTMLElement;
+    generateTemplate(size: number): void;
+    toggleOverlay(show?: boolean, onTop?: boolean): void;
+    setActiveItem(item: number): void;
+    getSelectedItem(index: number): HTMLElement | null;
+    handleDefaultItemHeight(child: HTMLElement): void;
+    resolveId(index: number, elements: NodeListOf<HTMLElement> | [HTMLElement]): DocumentFragment | undefined;
+    iconPositioning(): void;
+    protected pushElementToClonedItemsList(type: string | undefined, elementIndex: number, addOnTop?: boolean): void;
+    protected invokeChildElement(index: number): void;
+    protected checkTemplateDefined(): void;
+    protected addDefaultTemplate(): void;
+    protected cleanTheTemplate(): void;
+    private removeActiveItemClass;
+}

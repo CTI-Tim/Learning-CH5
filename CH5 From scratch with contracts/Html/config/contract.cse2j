@@ -1,0 +1,35 @@
+{
+	"name": "Example",
+	"timestamp": "2023-09-21 10:47:08.623",
+	"version": "1.0.0.0",
+	"schema_version": 1,
+	"extra_value": "Example contract",
+	"signals": {
+		"states": {
+			"boolean": {
+				"1": {
+					"1": "Room.PowerOnFb",
+					"2": "Room.PowerOffFb"
+				}
+			},
+			"string": {
+				"1": {
+					"1": "Room.PowerStateFb",
+					"2": "Room.RoomNameFb"
+				}
+			}
+		},
+		"events": {
+			"boolean": {
+				"Room.PowerOn": {
+					"joinId": 1,
+					"smartObjectId": 1
+				},
+				"Room.PowerOff": {
+					"joinId": 2,
+					"smartObjectId": 1
+				}
+			}
+		}
+	}
+}

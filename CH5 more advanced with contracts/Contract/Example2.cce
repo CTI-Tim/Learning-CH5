@@ -1,0 +1,178 @@
+{
+	"Errors": [],
+	"id": "_v83kp9ki0",
+	"name": "Example2",
+	"description": "Example contract",
+	"company": "CTI",
+	"client": "You",
+	"author": "Tim Gray - CTI",
+	"version": "1.0.0.0",
+	"schemaVersion": 1,
+	"subContractLinks": [],
+	"subContracts": [],
+	"specifications": [
+		{
+			"Errors": [],
+			"parentId": "_v83kp9ki0",
+			"id": "_ppnhe8xsa",
+			"componentId": "_y58z9fx86",
+			"instanceName": "Room",
+			"numberOfInstances": 1
+		}
+	],
+	"components": [
+		{
+			"Errors": [],
+			"parentId": "_v83kp9ki0",
+			"id": "_nsfqtw68r",
+			"name": "Button",
+			"commands": [
+				{
+					"Errors": [],
+					"name": "Feedback",
+					"siblingId": "_ass2z94d8",
+					"dataType": 1,
+					"notes": "",
+					"id": "_kx6f91d4x",
+					"parentId": "_nsfqtw68r",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "Label",
+					"siblingId": "_ld5yywhzu",
+					"dataType": 3,
+					"notes": "",
+					"id": "_pf7r1z8w2",
+					"parentId": "_nsfqtw68r",
+					"attributeType": 0
+				}
+			],
+			"feedbacks": [
+				{
+					"Errors": [],
+					"name": "Push",
+					"siblingId": "_kx6f91d4x",
+					"dataType": 1,
+					"notes": "",
+					"id": "_ass2z94d8",
+					"parentId": "_nsfqtw68r",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_pf7r1z8w2",
+					"dataType": 0,
+					"notes": "",
+					"id": "_ld5yywhzu",
+					"parentId": "_nsfqtw68r",
+					"attributeType": 1
+				}
+			],
+			"specifications": []
+		},
+		{
+			"Errors": [],
+			"parentId": "_v83kp9ki0",
+			"id": "_y58z9fx86",
+			"name": "Room",
+			"description": "RoomControls",
+			"commands": [
+				{
+					"Errors": [],
+					"name": "PowerOnFb",
+					"siblingId": "_02e8usl76",
+					"dataType": 1,
+					"notes": "",
+					"id": "_5ms9c0mil",
+					"parentId": "_y58z9fx86",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "PowerOffFb",
+					"siblingId": "_ldfhimqwt",
+					"dataType": 1,
+					"notes": "",
+					"id": "_bjlolrin2",
+					"parentId": "_y58z9fx86",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "PowerStateFb",
+					"siblingId": "_1ybj3yb5f",
+					"dataType": 3,
+					"notes": "",
+					"id": "_ahr2lwyah",
+					"parentId": "_y58z9fx86",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "RoomNameFb",
+					"siblingId": "_nelp3q5gl",
+					"dataType": 3,
+					"notes": "",
+					"id": "_k1zd9ccbb",
+					"parentId": "_y58z9fx86",
+					"attributeType": 0
+				}
+			],
+			"feedbacks": [
+				{
+					"Errors": [],
+					"name": "PowerOn",
+					"siblingId": "_5ms9c0mil",
+					"dataType": 1,
+					"notes": "",
+					"id": "_02e8usl76",
+					"parentId": "_y58z9fx86",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "PowerOff",
+					"siblingId": "_bjlolrin2",
+					"dataType": 1,
+					"notes": "",
+					"id": "_ldfhimqwt",
+					"parentId": "_y58z9fx86",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_ahr2lwyah",
+					"dataType": 3,
+					"notes": "",
+					"id": "_1ybj3yb5f",
+					"parentId": "_y58z9fx86",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_k1zd9ccbb",
+					"dataType": 3,
+					"notes": "",
+					"id": "_nelp3q5gl",
+					"parentId": "_y58z9fx86",
+					"attributeType": 1
+				}
+			],
+			"specifications": [
+				{
+					"Errors": [],
+					"parentId": "_v83kp9ki0",
+					"id": "_1io3bcgd7",
+					"componentId": "_nsfqtw68r",
+					"instanceName": "Button",
+					"numberOfInstances": 6
+				}
+			]
+		}
+	],
+	"allComponentsForAllContracts": []
+}

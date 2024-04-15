@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- This is the top header bar that has the time in it -->
+  <div class="header">
+    <span class="clock" id="time"></span>
+    <script src="time.js"></script>
+</div>
+<!-- The main Body of the touchpanel-->
+  <div class="content">
+    <h1 data-ch5-textcontent="1">Room Name</h1>
+    <div class="btn-group">
+      <ch5-button label="Power On" sendEventOnClick="11" receiveStateSelected="11">
+      </ch5-button>
+      <ch5-button label="Power Off" sendEventOnClick="12" receiveStateSelected="12">
+      </ch5-button>
+    </div>
+  </div>
+  
+  <!-- I prefer to directly point at the crcomlib directly as this is all we need. You can put all your javascript references down here if you want them grouped -->
+  <script src="./node_modules/@crestron/ch5-crcomlib/build_bundles/umd/cr-com-lib.js"></script>
+</body>
+</html>

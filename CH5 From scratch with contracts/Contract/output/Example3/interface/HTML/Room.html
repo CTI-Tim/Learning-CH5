@@ -1,0 +1,20 @@
+<template id="Example3.Room.Room">
+	<div id="Room.Room">
+	 		<ch5-button sendEventOnClick="Room.PowerOn" receiveStateSelected="Room.PowerOnFb">
+        	</ch5-button>
+	 		<ch5-button sendEventOnClick="Room.PowerOff" receiveStateSelected="Room.PowerOffFb">
+        	</ch5-button>
+	 	<span data-ch5-textcontent="Room.PowerStateFb">Label</span>
+	 	<span data-ch5-textcontent="Room.RoomNameFb">Label</span>
+	 	<ch5-list id="Room.Button.Button" indexId="idx2" size="6" orientation="horizontal">
+ 	 	 <template>
+ 	 	 <div class="horizontal-list-item">
+	 		<ch5-button sendEventOnClick="Room.Button[{{idx2}}].Push" receiveStateSelected="Room.Button[{{idx2}}].Feedback">
+        	</ch5-button>
+	 	<span data-ch5-textcontent="Room.Button[{{idx2}}].Label">Label</span>
+	 	 </div> 
+ 	 	</template>
+ 	</ch5-list>
+
+	 </div>
+</template>

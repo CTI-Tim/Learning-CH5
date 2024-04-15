@@ -1,0 +1,30 @@
+import { ICh5CommonAttributes } from "../../ch5-common/interfaces";
+import { TCh5OverlayPanelStretch, TCh5OverlayPanelOverflow } from "../../ch5-overlay-panel/interfaces/t-ch5-overlay-panel";
+export interface ICh5ModalDialogAttributes extends ICh5CommonAttributes {
+    closeIcon: string;
+    stretch: TCh5OverlayPanelStretch | null;
+    overflow: TCh5OverlayPanelOverflow;
+    width: string;
+    height: string;
+    title: string;
+    maskStyle: string;
+    okButtonLabel: string;
+    okButtonIcon: string;
+    okButtonStyle: string;
+    cancelButtonLabel: string;
+    cancelButtonIcon: string;
+    cancelButtonStyle: string;
+    prompt: string;
+    promptIcon: string;
+    dismissable: boolean;
+    closable: boolean;
+    mask: boolean;
+    hideOkButton: boolean;
+    hideCancelButton: boolean;
+    sendEventOnBeforeShow: string;
+    sendEventOnAfterShow: string;
+    sendEventOnBeforeHide: string;
+    sendEventOnAfterHide: string;
+    sendEventOnOk: string;
+    sendEventOnCancel: string;
+}

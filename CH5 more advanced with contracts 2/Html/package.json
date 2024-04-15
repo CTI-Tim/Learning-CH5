@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "@crestron/ch5-crcomlib": "^2.5.0"
+  },
+  "name": "ch5-from-scratch",
+  "description": "Just has a couple of buttons that show a couple of \"sub pages\"",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

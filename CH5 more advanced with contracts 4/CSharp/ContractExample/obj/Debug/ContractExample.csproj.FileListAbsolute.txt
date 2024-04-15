@@ -1,0 +1,201 @@
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\ContractExample.dll
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\ContractExample.pdb
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.AudioDistribution.dll
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.CrestronConnected.dll
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.DeviceSupport.dll
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.DM.dll
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.EthernetCommunications.dll
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Fusion.dll
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Gateways.dll
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.GeneralIO.dll
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Keypads.dll
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Lighting.dll
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Media.dll
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Remotes.dll
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Shades.dll
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Thermostats.dll
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.ThreeSeriesCards.dll
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.UC.dll
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.UI.dll
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\SimplSharpAutoUpdateInterface.dll
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\SimplSharpCryptographyInterface.dll
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\SimplSharpCustomAttributesInterface.dll
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\SimplSharpCWSHelperInterface.dll
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\SimplSharpExchangeWebServices.dll
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\SimplSharpHelperInterface.dll
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\SimplSharpNewtonsoft.dll
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\SimplSharpOnvifInterface.dll
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\SimplSharpPro.exe
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\SimplSharpProgrammingInterfaces.dll
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\SimplSharpReflectionInterface.dll
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\SimplSharpSQLHelperInterface.dll
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\SimplSharpTimerEventInterface.dll
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.AudioDistribution.xml
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.CrestronConnected.xml
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.DeviceSupport.xml
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.DM.xml
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.EthernetCommunications.xml
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Fusion.xml
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Gateways.xml
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.GeneralIO.xml
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Keypads.xml
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Lighting.xml
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Media.xml
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Remotes.xml
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Shades.xml
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Thermostats.xml
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.ThreeSeriesCards.xml
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.UC.xml
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.UI.xml
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\SimplSharpAutoUpdateInterface.xml
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\SimplSharpCryptographyInterface.xml
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\SimplSharpCustomAttributesInterface.xml
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\SimplSharpCWSHelperInterface.xml
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\SimplSharpExchangeWebServices.xml
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\SimplSharpHelperInterface.xml
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\SimplSharpNewtonsoft.xml
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\SimplSharpOnvifInterface.xml
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\SimplSharpPro.xml
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\SimplSharpProgrammingInterfaces.xml
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\SimplSharpReflectionInterface.xml
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\SimplSharpSQLHelperInterface.xml
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\bin\Debug\SimplSharpTimerEventInterface.xml
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\obj\Debug\ContractExample.csproj.AssemblyReference.cache
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\obj\Debug\ContractExample.csproj.CoreCompileInputs.cache
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\obj\Debug\ContractExample.csproj.CopyComplete
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\obj\Debug\ContractExample.dll
+D:\Html5 experiments\CH5 From scratch with contracts\CSharp\ContractExample\obj\Debug\ContractExample.pdb
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\obj\Debug\ContractExample.csproj.AssemblyReference.cache
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\obj\Debug\ContractExample.csproj.CoreCompileInputs.cache
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\obj\Debug\ContractExample.dll
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\obj\Debug\ContractExample.pdb
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\ContractExample.dll
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\ContractExample.pdb
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.AudioDistribution.dll
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.CrestronConnected.dll
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.DeviceSupport.dll
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.DM.dll
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.EthernetCommunications.dll
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Fusion.dll
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Gateways.dll
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.GeneralIO.dll
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Keypads.dll
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Lighting.dll
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Media.dll
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Remotes.dll
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Shades.dll
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Thermostats.dll
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.ThreeSeriesCards.dll
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.UC.dll
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.UI.dll
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\SimplSharpAutoUpdateInterface.dll
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\SimplSharpCryptographyInterface.dll
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\SimplSharpCustomAttributesInterface.dll
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\SimplSharpCWSHelperInterface.dll
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\SimplSharpExchangeWebServices.dll
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\SimplSharpHelperInterface.dll
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\SimplSharpNewtonsoft.dll
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\SimplSharpOnvifInterface.dll
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\SimplSharpPro.exe
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\SimplSharpProgrammingInterfaces.dll
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\SimplSharpReflectionInterface.dll
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\SimplSharpSQLHelperInterface.dll
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\SimplSharpTimerEventInterface.dll
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.AudioDistribution.xml
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.CrestronConnected.xml
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.DeviceSupport.xml
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.DM.xml
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.EthernetCommunications.xml
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Fusion.xml
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Gateways.xml
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.GeneralIO.xml
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Keypads.xml
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Lighting.xml
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Media.xml
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Remotes.xml
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Shades.xml
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Thermostats.xml
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.ThreeSeriesCards.xml
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.UC.xml
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.UI.xml
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\SimplSharpAutoUpdateInterface.xml
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\SimplSharpCryptographyInterface.xml
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\SimplSharpCustomAttributesInterface.xml
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\SimplSharpCWSHelperInterface.xml
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\SimplSharpExchangeWebServices.xml
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\SimplSharpHelperInterface.xml
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\SimplSharpNewtonsoft.xml
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\SimplSharpOnvifInterface.xml
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\SimplSharpPro.xml
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\SimplSharpProgrammingInterfaces.xml
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\SimplSharpReflectionInterface.xml
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\SimplSharpSQLHelperInterface.xml
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\bin\Debug\SimplSharpTimerEventInterface.xml
+D:\Html5 experiments\CH5 more advanced with contracts\CSharp\ContractExample\obj\Debug\ContractExample.csproj.CopyComplete
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\ContractExample.dll
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\ContractExample.pdb
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.AudioDistribution.dll
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.CrestronConnected.dll
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.DeviceSupport.dll
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.DM.dll
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.EthernetCommunications.dll
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Fusion.dll
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Gateways.dll
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.GeneralIO.dll
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Keypads.dll
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Lighting.dll
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Media.dll
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Remotes.dll
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Shades.dll
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Thermostats.dll
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.ThreeSeriesCards.dll
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.UC.dll
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.UI.dll
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\SimplSharpAutoUpdateInterface.dll
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\SimplSharpCryptographyInterface.dll
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\SimplSharpCustomAttributesInterface.dll
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\SimplSharpCWSHelperInterface.dll
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\SimplSharpExchangeWebServices.dll
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\SimplSharpHelperInterface.dll
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\SimplSharpNewtonsoft.dll
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\SimplSharpOnvifInterface.dll
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\SimplSharpPro.exe
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\SimplSharpProgrammingInterfaces.dll
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\SimplSharpReflectionInterface.dll
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\SimplSharpSQLHelperInterface.dll
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\SimplSharpTimerEventInterface.dll
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.AudioDistribution.xml
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.CrestronConnected.xml
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.DeviceSupport.xml
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.DM.xml
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.EthernetCommunications.xml
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Fusion.xml
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Gateways.xml
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.GeneralIO.xml
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Keypads.xml
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Lighting.xml
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Media.xml
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Remotes.xml
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Shades.xml
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.Thermostats.xml
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.ThreeSeriesCards.xml
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.UC.xml
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\Crestron.SimplSharpPro.UI.xml
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\SimplSharpAutoUpdateInterface.xml
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\SimplSharpCryptographyInterface.xml
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\SimplSharpCustomAttributesInterface.xml
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\SimplSharpCWSHelperInterface.xml
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\SimplSharpExchangeWebServices.xml
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\SimplSharpHelperInterface.xml
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\SimplSharpNewtonsoft.xml
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\SimplSharpOnvifInterface.xml
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\SimplSharpPro.xml
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\SimplSharpProgrammingInterfaces.xml
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\SimplSharpReflectionInterface.xml
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\SimplSharpSQLHelperInterface.xml
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\bin\Debug\SimplSharpTimerEventInterface.xml
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\obj\Debug\ContractExample.csproj.AssemblyReference.cache
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\obj\Debug\ContractExample.csproj.CoreCompileInputs.cache
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\obj\Debug\ContractExample.csproj.CopyComplete
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\obj\Debug\ContractExample.dll
+D:\Html5 experiments\CH5 more advanced with contracts 4\CSharp\ContractExample\obj\Debug\ContractExample.pdb

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- This is the top header bar that has the time in it -->
+  <div class="header">
+    <div class="clock" id="time"></div>
+    <div class="roomName" data-ch5-textcontent="Room.RoomNameFb">Label</div>
+    <div class="temp" id="temperature"></div>
+    <script src="time.js"></script>
+    <script src="weather.js"></script>
+  </div>
+<!-- The main Body of the touchpanel-->
+  <div class="content">
+    
+    <div class="btn-group" style="float:left">
+      <h1 data-ch5-textcontent="Room.PowerStateFb">Room Name</h1>
+      <ch5-button label="Power On" sendEventOnClick="Room.PowerOn" receiveStateSelected="Room.PowerOnFb">
+      </ch5-button>
+      <ch5-button label="Power Off" sendEventOnClick="Room.PowerOff" receiveStateSelected="Room.PowerOffFb">
+      </ch5-button>
+    </div>
+
+    <div id="Volume" style="float:right">
+      <div style="float:left">
+        <ch5-button label="Vol Up" sendEventOnClick="Volume.VolumeUp" receiveStateSelected="Volume.VolumeUpFb">
+        </ch5-button>
+        <ch5-button label="Vol Dn" sendEventOnClick="Volume.VolumeDn" receiveStateSelected="Volume.VolumeDnFb">
+        </ch5-button>
+        <ch5-button label="Mute" sendEventOnClick="Volume.MuteToggle" receiveStateSelected="Volume.MuteFb">
+        </ch5-button>
+      </div>
+      <div style="float:right">
+        <ch5-segmented-gauge 
+          receiveStateValue="Volume.VolumeFb" 
+          gaugeLedStyle="rectangle" 
+          Orientation="vertical"
+          minvalue="0"
+          maxvalue="65535"
+          numberofsegments="15"
+          primarystategraphic="green"
+          secondarystategraphic="yellow"
+          tertiarystategraphic="red">
+        </ch5-segmented-gauge>
+      </div>
+    </div>
+
+  </div>
+<!-- The Footer where our interlock lives-->
+  <div class="footer">
+    <ch5-list id="Room.Button.Button" indexId="idx2" size="6" orientation="horizontal">
+      <template>
+        <div class="horizontal-list-item">
+          <!-- To get a dynamic label on the CH5-Button you need to use the receiveStateLabel as shown below-->
+          <ch5-button receiveStateLabel="Room.Button[{{idx2}}].Label"  sendEventOnClick="Room.Button[{{idx2}}].Push" receiveStateSelected="Room.Button[{{idx2}}].Feedback">
+          </ch5-button>
+        </div> 
+      </template>
+    </ch5-list>
+  </div>
+  
+  <!-- I prefer to directly point at the crcomlib directly as this is all we need. You can put all your javascript references down here if you want them grouped -->
+  <script src="./node_modules/@crestron/ch5-crcomlib/build_bundles/umd/cr-com-lib.js"></script>
+</body>
+</html>

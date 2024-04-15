@@ -1,0 +1,277 @@
+{
+	"Errors": [],
+	"id": "_h81w4hnqo",
+	"name": "Example3",
+	"description": "Example contract",
+	"company": "CTI",
+	"client": "You",
+	"author": "Tim Gray - CTI",
+	"version": "1.0.0.0",
+	"schemaVersion": 1,
+	"subContractLinks": [],
+	"subContracts": [],
+	"specifications": [
+		{
+			"Errors": [],
+			"parentId": "_h81w4hnqo",
+			"id": "_gzcccbppr",
+			"componentId": "_navicf6dx",
+			"instanceName": "Room",
+			"numberOfInstances": 1
+		},
+		{
+			"Errors": [],
+			"parentId": "_h81w4hnqo",
+			"id": "_ncmm9xqv8",
+			"componentId": "_sd2tw88wf",
+			"instanceName": "Volume",
+			"numberOfInstances": 1
+		}
+	],
+	"components": [
+		{
+			"Errors": [],
+			"parentId": "_h81w4hnqo",
+			"id": "_cytf17r54",
+			"name": "Button",
+			"commands": [
+				{
+					"Errors": [],
+					"name": "Feedback",
+					"siblingId": "_9y533yole",
+					"dataType": 1,
+					"notes": "",
+					"id": "_qxoc4hah6",
+					"parentId": "_cytf17r54",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "Label",
+					"siblingId": "_as1xf4s36",
+					"dataType": 3,
+					"notes": "",
+					"id": "_zvakqr6iu",
+					"parentId": "_cytf17r54",
+					"attributeType": 0
+				}
+			],
+			"feedbacks": [
+				{
+					"Errors": [],
+					"name": "Push",
+					"siblingId": "_qxoc4hah6",
+					"dataType": 1,
+					"notes": "",
+					"id": "_9y533yole",
+					"parentId": "_cytf17r54",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_zvakqr6iu",
+					"dataType": 3,
+					"notes": "",
+					"id": "_as1xf4s36",
+					"parentId": "_cytf17r54",
+					"attributeType": 1
+				}
+			],
+			"specifications": []
+		},
+		{
+			"Errors": [],
+			"parentId": "_h81w4hnqo",
+			"id": "_navicf6dx",
+			"name": "Room",
+			"description": "RoomControls",
+			"commands": [
+				{
+					"Errors": [],
+					"name": "PowerOnFb",
+					"siblingId": "_bzdqb9jzi",
+					"dataType": 1,
+					"notes": "",
+					"id": "_ldo5jdjv4",
+					"parentId": "_navicf6dx",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "PowerOffFb",
+					"siblingId": "_eqk3fbuav",
+					"dataType": 1,
+					"notes": "",
+					"id": "_v43oglfaz",
+					"parentId": "_navicf6dx",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "PowerStateFb",
+					"siblingId": "_zhm2vhyg1",
+					"dataType": 3,
+					"notes": "",
+					"id": "_tabzv5di6",
+					"parentId": "_navicf6dx",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "RoomNameFb",
+					"siblingId": "_y5f4k3kdd",
+					"dataType": 3,
+					"notes": "",
+					"id": "_9u0exbnyl",
+					"parentId": "_navicf6dx",
+					"attributeType": 0
+				}
+			],
+			"feedbacks": [
+				{
+					"Errors": [],
+					"name": "PowerOn",
+					"siblingId": "_ldo5jdjv4",
+					"dataType": 1,
+					"notes": "",
+					"id": "_bzdqb9jzi",
+					"parentId": "_navicf6dx",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "PowerOff",
+					"siblingId": "_v43oglfaz",
+					"dataType": 1,
+					"notes": "",
+					"id": "_eqk3fbuav",
+					"parentId": "_navicf6dx",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_tabzv5di6",
+					"dataType": 3,
+					"notes": "",
+					"id": "_zhm2vhyg1",
+					"parentId": "_navicf6dx",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_9u0exbnyl",
+					"dataType": 3,
+					"notes": "",
+					"id": "_y5f4k3kdd",
+					"parentId": "_navicf6dx",
+					"attributeType": 1
+				}
+			],
+			"specifications": [
+				{
+					"Errors": [],
+					"parentId": "_h81w4hnqo",
+					"id": "_1io3bcgd7",
+					"componentId": "_cytf17r54",
+					"instanceName": "Button",
+					"numberOfInstances": 6
+				}
+			]
+		},
+		{
+			"Errors": [],
+			"parentId": "_h81w4hnqo",
+			"id": "_sd2tw88wf",
+			"name": "Volume",
+			"commands": [
+				{
+					"Errors": [],
+					"name": "VolumeFb",
+					"siblingId": "_sqj41ccpc",
+					"dataType": 2,
+					"notes": "",
+					"id": "_5f8zfb3yp",
+					"parentId": "_sd2tw88wf",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "VolumeUpFb",
+					"siblingId": "_3xjgbguzc",
+					"dataType": 1,
+					"notes": "",
+					"id": "_2pla1rb4t",
+					"parentId": "_sd2tw88wf",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "VolumeDnFb",
+					"siblingId": "_nwjjz8xq9",
+					"dataType": 1,
+					"notes": "",
+					"id": "_6p979qzx3",
+					"parentId": "_sd2tw88wf",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "MuteFb",
+					"siblingId": "_7z446w9ot",
+					"dataType": 1,
+					"notes": "",
+					"id": "_s65bllf83",
+					"parentId": "_sd2tw88wf",
+					"attributeType": 0
+				}
+			],
+			"feedbacks": [
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_5f8zfb3yp",
+					"dataType": 2,
+					"notes": "",
+					"id": "_sqj41ccpc",
+					"parentId": "_sd2tw88wf",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "VolumeUp",
+					"siblingId": "_2pla1rb4t",
+					"dataType": 1,
+					"notes": "",
+					"id": "_3xjgbguzc",
+					"parentId": "_sd2tw88wf",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "VolumeDn",
+					"siblingId": "_6p979qzx3",
+					"dataType": 1,
+					"notes": "",
+					"id": "_nwjjz8xq9",
+					"parentId": "_sd2tw88wf",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "MuteToggle",
+					"siblingId": "_s65bllf83",
+					"dataType": 1,
+					"notes": "",
+					"id": "_7z446w9ot",
+					"parentId": "_sd2tw88wf",
+					"attributeType": 1
+				}
+			],
+			"specifications": []
+		}
+	],
+	"allComponentsForAllContracts": []
+}

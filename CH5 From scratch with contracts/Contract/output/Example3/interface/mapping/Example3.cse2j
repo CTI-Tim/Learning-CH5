@@ -1,0 +1,95 @@
+{
+	"name": "Example3",
+	"timestamp": "2023-10-04 14:04:24.522",
+	"version": "1.0.0.0",
+	"schema_version": 1,
+	"extra_value": "Example contract",
+	"signals": {
+		"states": {
+			"boolean": {
+				"1": {
+					"1": "Room.PowerOnFb",
+					"2": "Room.PowerOffFb"
+				},
+				"2": {
+					"1": "Room.Button[0].Feedback"
+				},
+				"3": {
+					"1": "Room.Button[1].Feedback"
+				},
+				"4": {
+					"1": "Room.Button[2].Feedback"
+				},
+				"5": {
+					"1": "Room.Button[3].Feedback"
+				},
+				"6": {
+					"1": "Room.Button[4].Feedback"
+				},
+				"7": {
+					"1": "Room.Button[5].Feedback"
+				}
+			},
+			"string": {
+				"1": {
+					"1": "Room.PowerStateFb",
+					"2": "Room.RoomNameFb"
+				},
+				"2": {
+					"1": "Room.Button[0].Label"
+				},
+				"3": {
+					"1": "Room.Button[1].Label"
+				},
+				"4": {
+					"1": "Room.Button[2].Label"
+				},
+				"5": {
+					"1": "Room.Button[3].Label"
+				},
+				"6": {
+					"1": "Room.Button[4].Label"
+				},
+				"7": {
+					"1": "Room.Button[5].Label"
+				}
+			}
+		},
+		"events": {
+			"boolean": {
+				"Room.PowerOn": {
+					"joinId": 1,
+					"smartObjectId": 1
+				},
+				"Room.PowerOff": {
+					"joinId": 2,
+					"smartObjectId": 1
+				},
+				"Room.Button[0].Push": {
+					"joinId": 1,
+					"smartObjectId": 2
+				},
+				"Room.Button[1].Push": {
+					"joinId": 1,
+					"smartObjectId": 3
+				},
+				"Room.Button[2].Push": {
+					"joinId": 1,
+					"smartObjectId": 4
+				},
+				"Room.Button[3].Push": {
+					"joinId": 1,
+					"smartObjectId": 5
+				},
+				"Room.Button[4].Push": {
+					"joinId": 1,
+					"smartObjectId": 6
+				},
+				"Room.Button[5].Push": {
+					"joinId": 1,
+					"smartObjectId": 7
+				}
+			}
+		}
+	}
+}

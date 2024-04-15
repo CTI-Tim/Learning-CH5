@@ -1,0 +1,31 @@
+import { ICh5SubpageReferenceListCommonAttributes } from "../../ch5-common/interfaces/i-ch5-subpage-reference-list-attributes";
+import { TCh5SubpageReferenceListAttributesLoadItems, TCh5SubpageReferenceListOrientation, TCh5SubpageReferenceListStretch } from './t-ch5-subpage-reference-list';
+export interface ICh5SubpageReferenceListAttributes extends ICh5SubpageReferenceListCommonAttributes {
+    orientation: TCh5SubpageReferenceListOrientation;
+    contractName: string;
+    useContractForEnable: boolean;
+    useContractForShow: boolean;
+    useContractForItemEnable: boolean;
+    useContractForItemShow: boolean;
+    useContractForCustomStyle: boolean;
+    useContractForCustomClass: boolean;
+    useContractForNumItems: boolean;
+    endless: boolean;
+    centerItems: boolean;
+    rows: number;
+    columns: number;
+    scrollToPosition: number;
+    scrollbar: boolean;
+    booleanJoinIncrement: string;
+    numericJoinIncrement: string;
+    stringJoinIncrement: string;
+    subpageReceiveStateEnable: string;
+    subpageReceiveStateShow: string;
+    widgetId: string;
+    subpageReceiveStateScrollTo: string;
+    stretch: TCh5SubpageReferenceListStretch | null;
+    numberOfItems: number;
+    receiveStateNumberOfItems: string;
+    indexId: string;
+    loadItems: TCh5SubpageReferenceListAttributesLoadItems;
+}

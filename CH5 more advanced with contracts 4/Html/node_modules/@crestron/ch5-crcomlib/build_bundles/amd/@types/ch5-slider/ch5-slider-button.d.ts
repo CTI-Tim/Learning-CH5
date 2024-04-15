@@ -1,0 +1,37 @@
+import { Ch5ButtonBase } from "../ch5-button";
+import { TCh5SliderButtonKey } from './interfaces/t-ch5-slider-button';
+import { ICh5SliderButtonAttributes } from './interfaces/i-ch5-slider-button-attributes';
+import { ICh5PropertySettings } from "../ch5-core/ch5-property";
+export declare class Ch5SliderButton extends Ch5ButtonBase implements ICh5SliderButtonAttributes {
+    static readonly KEY: TCh5SliderButtonKey[];
+    static readonly inheritedObsAttrs: string[];
+    static readonly COMPONENT_DATA: any;
+    static readonly COMPONENT_PROPERTIES: ICh5PropertySettings[];
+    static readonly ELEMENT_NAME = "ch5-slider-button";
+    primaryCssClass: string;
+    private debounceCreateSliderButton;
+    set key(value: TCh5SliderButtonKey);
+    get key(): TCh5SliderButtonKey;
+    set labelInnerHTML(value: string);
+    get labelInnerHTML(): string;
+    constructor();
+    static get observedAttributes(): string[];
+    static registerSignalAttributeTypes(): void;
+    attributeChangedCallback(attr: string, oldValue: string, newValue: string): void;
+    private createSliderButtonLabel;
+    private buttonIgnoredAttributes;
+    connectedCallback(): void;
+    disconnectedCallback(): void;
+    protected createInternalHtml(): void;
+    protected initAttributes(): void;
+    protected attachEventListeners(): void;
+    protected removeEventListeners(): void;
+    unsubscribeFromSignals(): void;
+    protected clearComponentContent(): void;
+    private labelHelper;
+    setValues(): void;
+    private handleLabel;
+    setButtonDisplay(): void;
+    protected updateCssClass(): void;
+    getCssClassDisabled(): string;
+}
